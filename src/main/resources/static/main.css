@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.header {
+    text-align: center;
+    font-family: 'billabong';
+    font-size: 13rem;
+    font-weight: 100;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+}
+
+@font-face {
+    font-family: 'billabong';
+    src: url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.eot");
+    src: url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/6d32b8e06f40fb7698cfb714b9e7975d.svg#BillabongW00-Regular") format("svg");
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-container button {
+    color: red;
+    flex-basis: 48%;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: DodgerBlue;
+    color: white;
+}
+/* Darker background on mouse-over */
+.button-container button:hover {
+    background-color: RoyalBlue;
+}
+.header-container p {
+    text-align: center;
+}

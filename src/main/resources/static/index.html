@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+<body>
+<div class="main-container">
+    <div class="header-container">
+        <h1 class="header">MUSIC MANIA</h1>
+        <!--<p>Press any music instrument button</p>-->
+    </div>
+
+    <div class="button-container">
+        <button class="ambulance" id="btn1"><i class="fas fa-ambulance"></i></button>
+        <button class="car" id="btn2"><i class="fas fa-car"></i></button>
+        <button class="bus" id="btn3"><i class="fas fa-bus"></i></button>
+        <button class="motorcycle" id="btn4"><i class="fas fa-motorcycle"></i></button>
+
+
+    </div>
+    <div>
+        <audio id="aud1" src="./music/aud1.mp3"></audio>
+        <audio id="aud2" src="./music/aud2.mp3"></audio>
+        <audio id="aud3" src="./music/aud3.mp3"></audio>
+        <audio id="aud4" src="./music/aud4.mp3"></audio>
+    </div>
+
+</div>
+<script src="./music.js" defer async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<link rel="stylesheet" href="./main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<meta charset="UTF-8">
+<title>Music Mania</title>
+<noscript>
+    <h2>Sorry! Your browser doesn't support Javascript</h2>
+</noscript>
+</body>
+</html>
